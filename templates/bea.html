@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>תוצאות האלגוריתם</b></h1>
+  <p>Number of ants <span class="w3-tag">{{ants}}</span></p>
+  <p>Number of iterations <span class="w3-tag">{{iterations}}</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src={{url}} alt="Chart" height="auto" width="100%">
+    <div class="w3-container">
+      <h3><b>{{name}}</b></h3>
+    </div>
+
+  </div>
+  <hr>
+
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="/static/images/sectors.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>שיפור האלגוריתם</b></h4>
+      <p>שיפור האלגוריתם על ידי יצירת אשכולות
+         מורגש בהרצה של איטרציות רבות ועבור מס' רב של
+         צמתים ונמלים.
+         עבור מס' צמתים קטן נעדיף להשתמש באופטימיזצית
+         קן הנמלים ללא אשכולות,
+         שכן כאשר אנחנו בוחרים אשכול ממנו נבחר צומת,
+         אנחנו משתמשים בעיקרון גלגל הרולטה פעם נוספת על
+         השימוש בו בבחירת הצומת.
+         גלגל הרולטה מספק לנו מידה מה של רנדומליות
+         והדבר הינו הכרחי באלגוריתמי אופטימיזציה, שכן אם לא נשתמש
+         ברנדומליות, נקבל את אותו המסלול המוצע שוב ושוב.
+         עם זאת, בהרצה של מס' נמלים ואיטרציות מועטות
+         גורם הרנדומלית מסית אותנו מן הצמתים בעלי ההסתברות הגבוהה להיבחר, ולמרות השיפור בזמן הריצה אנו נעדיף להגיע למסלול מקורב יותר 
+      </p>
+    </div>
+  </div><hr>
+  
+  
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+
+
+</body>
+</html>
