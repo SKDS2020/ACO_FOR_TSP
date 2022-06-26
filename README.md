@@ -25,7 +25,7 @@ In this project I implemented an improved for Adaptive Ant Colony Optimization w
 https://www.sciencedirect.com/science/article/pii/S2210650222000281
 Authors:  PetrStodola, PavelOtřísal, and KamilaHasilová
 
-The improved algorithm is In the file "Ant_Object"
+The improved part of the algorithm is In [Ant_Object](https://github.com/SKDS2020/ACO_FOR_TSP/blob/main/Ant_Object.ipynb) file
 
 In this implementation I used Flask to display the result of the algorithm
 
