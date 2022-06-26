@@ -29,10 +29,8 @@ The improved algorithm is In the file "Ant_Object"
 
 In this implementation I used Flask to display the result of the algorithm
 
-![plot](https://github.com/SKDS2020/ACO_FOR_TSP/blob/main/FLASK_IMG/INTRO.png)
-
-![alt text](https://github.com/SKDS2020/ACO_FOR_TSP/blob/FLASK_IMG/INTRO.png?raw=true)
-![alt text]([http://url/to](https://drive.google.com/file/d/1jEQeoG-P-mqtUrDK_DWm0c3QJkBdGsGP/view?usp=sharing)/22.png)
+![plot](https://github.com/SKDS2020/ACO_FOR_TSP/blob/main/FLASK_IMG/INTRO1.png)
+![plot](https://github.com/SKDS2020/ACO_FOR_TSP/blob/main/FLASK_IMG/RES_ZOOMOUT.2png.png)
 
 
 
